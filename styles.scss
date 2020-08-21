@@ -1,0 +1,120 @@
+
+@import "animation";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+$enable-responsive-font-sizes:  true; 
+.my-logo{
+    background-color: #f4f4f4;
+}
+.section-0-logo{
+    background-color:#303b92;
+    a{
+        color: white!important;
+    }
+}
+.section-1{
+    position: relative;
+    .my-form-control{
+        height: 60px;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .cercle{
+        position: absolute;
+        bottom:  30px;
+        right: 1px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 2px solid blue;
+        background-color: blue;
+        color: white;
+    }
+}
+
+.section-2{
+    position: relative;
+    background-image: url(img/hero/h1_hero.png);
+   
+    .row{
+        background-image: url(img/hero/heroman.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .one1{
+        padding: 100px 50px;
+        
+    }
+    h4{
+        color: #303b92;
+        
+    }
+    a{
+        background-color: #303b92;
+        border-radius: 0;
+    }
+    
+}
+.my-top{
+    position: fixed;
+    left: 85%;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    z-index: 3;
+    i{
+        position: absolute;
+        left: 12px;
+        top: 6px;
+        font-size: 40px;
+        color: white;
+    }
+}
+.fa-laptop{
+    color: $primary;
+}
+
+    .my-card-style:hover{
+    cursor: pointer;
+     background-color: blue!important;
+     color: white!important;
+     .fa-laptop{
+         color: white;
+     }
+    }
+    .section-6{
+        .fa-star{
+            color: rgb(255, 187, 0);
+        }
+        a{
+            font-size: 25px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+@media screen and (max-width:992px){
+    .my-logo{
+        background-color: #fff;
+    }
+    .my-form, .section-0, .two1{
+        display: none;
+    }
+  
+    .section-2{
+        background-image: url(img/hero/h1_hero.png);
+       
+        .row{
+            background-image:none;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        
+        
+        
+    }
+}
