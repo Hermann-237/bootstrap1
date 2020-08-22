@@ -9692,11 +9692,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .section-2 h4 {
   color: #303b92;
+  font-size: 3vw;
 }
 
 .section-2 a {
   background-color: #303b92;
   border-radius: 0;
+}
+
+.section-2 h1 {
+  font-size: 5vw;
 }
 
 .section-3 .my-card-style:hover {
@@ -9764,6 +9769,10 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
 }
 
+.section-7 h1 {
+  font-size: 2vw;
+}
+
 .section-9 {
   background-color: #0b0b1d;
   color: white;
@@ -9777,6 +9786,30 @@ a.text-dark:hover, a.text-dark:focus {
 
 .section-9 a:hover {
   text-decoration: none;
+}
+
+.section-9 .se:hover {
+  color: white !important;
+  margin-left: 10px;
+  transition: margin-left 300ms ease-in-out;
+}
+
+.section-9 .line {
+  height: 1px;
+  border: 1px solid gray;
+  margin-bottom: 40px;
+}
+
+.section-9 p {
+  padding-bottom: 50px;
+}
+
+.section-9 .simon {
+  border-radius: 20px !important;
+}
+
+.section-9 .mama {
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 992px) {

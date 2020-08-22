@@ -51,11 +51,14 @@ $enable-responsive-font-sizes:  true;
     }
     h4{
         color: #303b92;
-        
+        font-size: 3vw;
     }
     a{
         background-color: #303b92;
         border-radius: 0;
+    }
+    h1{
+        font-size: 5vw;
     }
    
     
@@ -125,6 +128,9 @@ $enable-responsive-font-sizes:  true;
                 text-decoration: none;
             }
         }
+        h1{
+         font-size: 2vw;
+        }
     }
 
 .section-8{
@@ -143,6 +149,30 @@ $enable-responsive-font-sizes:  true;
         &:hover{
             text-decoration: none;
         }
+    }
+    .se{
+        
+        &:hover{
+            color: white!important;
+            margin-left: 10px;
+            transition: margin-left 300ms ease-in-out;
+        }
+       
+    }
+    .line{
+        height: 1px;
+        border: 1px solid gray;
+        margin-bottom: 40px;
+    }
+    p{
+       padding-bottom: 50px;
+    }
+    .simon{
+        
+        border-radius: 20px!important;
+    }
+    .mama{
+        margin-bottom: 30px;
     }
 }
     
