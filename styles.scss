@@ -1,14 +1,17 @@
 
+$secondary:#303b92;
+
 @import "animation";
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "node_modules/bootstrap/scss/variables";
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 $enable-responsive-font-sizes:  true; 
+
 .my-logo{
     background-color: #f4f4f4;
 }
 .section-0-logo{
-    background-color:#303b92;
+    
     a{
         color: white!important;
     }
@@ -27,8 +30,8 @@ $enable-responsive-font-sizes:  true;
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        border: 2px solid blue;
-        background-color: blue;
+        // border: 2px solid #303b92;
+        // background-color: #303b92;
         color: white;
     }
 }
@@ -43,7 +46,7 @@ $enable-responsive-font-sizes:  true;
         background-position: right;
     }
     .one1{
-        padding: 100px 50px;
+        padding: 200px 50px;
         
     }
     h4{
@@ -54,8 +57,25 @@ $enable-responsive-font-sizes:  true;
         background-color: #303b92;
         border-radius: 0;
     }
+   
     
 }
+
+.section-3{
+    .my-card-style:hover{
+        cursor: pointer;
+         background-color: #303b92!important;
+         color: white!important;
+         .fa{
+             color: white!important;
+         }
+        }
+    
+    .fa{
+        color: #303b92!important;
+    }
+}
+
 .my-top{
     position: fixed;
     left: 85%;
@@ -63,7 +83,7 @@ $enable-responsive-font-sizes:  true;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #303b92;
     z-index: 3;
     i{
         position: absolute;
@@ -73,18 +93,9 @@ $enable-responsive-font-sizes:  true;
         color: white;
     }
 }
-.fa-laptop{
-    color: $primary;
-}
 
-    .my-card-style:hover{
-    cursor: pointer;
-     background-color: blue!important;
-     color: white!important;
-     .fa-laptop{
-         color: white;
-     }
-    }
+
+   
     .section-6{
         .fa-star{
             color: rgb(255, 187, 0);
@@ -95,7 +106,46 @@ $enable-responsive-font-sizes:  true;
                 text-decoration: none;
             }
         }
+        .btn-1{
+            background-color: #303b92;
+            border-radius: none!important;
+        }
     }
+    .section-7{
+       min-height: 50vh;
+       background-color: #303b92;
+        .section-7a{
+            background-image: url(img/gallery/section_bg02.png);
+            background-repeat: no-repeat;
+            color: white;
+            
+        }
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+.section-8{
+   
+            
+}
+.section-9{
+    background-color: #0b0b1d;
+    color: white;
+    .pa{
+        border-radius: none!important;
+        outline-color: $primary;
+        box-shadow: 2px 2px 2px 2px #0b0b1d;
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+    
 
 @media screen and (max-width:992px){
     .my-logo{
